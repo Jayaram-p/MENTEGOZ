@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".bn").click(function(){
+        $(".hi1").toggle(1000);
+        $(".hi2").toggle(2000);
+        $(".hi3").toggle(3000);
+        $(".hi4").toggle(4000);
+        
+    });
+});
+</script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:inherit;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li class=bn><a href="#">MENU</a></li>
+  <li class="hi1" style="display: none;"><a class="active" href="#home">Home</a></li>
+  <li class="hi2" style="display: none;"><a href="#news">News</a></li>
+  <li class="hi3" style="display: none;"><a href="#contact">Contact</a></li>
+  <li class="hi4" style="display: none;"><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+</p>
+
+
+
+</body>
+</html>
+
